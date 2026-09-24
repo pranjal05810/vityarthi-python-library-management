@@ -1,4 +1,8 @@
 #Vit bhopal library management systeum
+
+from datetime import datetime, timedelta
+FINE_PER_DAY = 5
+
 print("WELCOME TO VIT BHOPAL AB2 LIBRARY")
 
 #list containing dictionaries
@@ -118,14 +122,24 @@ def search_book():
 
 # Function to issue a book
 def issue_book():
-    book_id = int(input("Enter Book ID to issue: "))
+    book_id = int(input("Enter book ID to issue: "))
 
     for book in library:
         if book["id"] == book_id:
 
             if book["available"]:
                 book["available"] = False
-                print("Book issued successfully!")
+
+                issue_date = datetime.now()
+                due_date = issue_date + timedelta(days=7)
+
+                book["issue_date"] = issue_date
+                book["due_date"] = due_date
+
+                print("\nBook issued successfully!")
+                print("Issue Date:", issue_date.strftime("%d-%m-%Y"))
+                print("Due Date:", due_date.strftime("%d-%m-%Y"))
+
             else:
                 print("Book is already issued.")
 
@@ -135,20 +149,79 @@ def issue_book():
 
 # Function to return a book
 def return_book():
-    book_id = int(input("Enter Book ID to return: "))
+    book_id = int(input("Enter book ID to return: "))
 
     for book in library:
         if book["id"] == book_id:
 
             if not book["available"]:
-                book["available"] = True
-                print("Book returned successfully!")
-            else:
-                print("This book was not issued.")
 
-            return
+                fine = calculate_fine(book["due_date"])
+
+                book["available"] = True
+
+                print("\nBook returned successfully.")
+                print("Final Fine: ₹", fine)
+
+                return
+
+            else:
+                print("Book is already available.")
+
+                return
 
     print("Book not found.")
+
+#Fine Calculation
+def calculate_fine(due_date):
+    today = datetime.name()
+
+    if today > due_date:
+        late_days = (today - due_date).days
+        fine = late_days*FINE_PER_DAY
+
+        print("Bool is overdue.")
+        print("Late Days:",late_days)
+        print("Fine:₹",fine)
+
+        return fine
+
+    else:
+        print("Book is returened on time.")
+        print("Fine:₹",fine)
+
+        return 0
+
+#Due Due Date Reminder
+def due_date_reminder():
+    print("\n===== DUE DATE REMINDER =====")
+
+    found = False
+
+    for book in library:
+
+        if not book["available"]:
+
+            found = True
+
+            today = datetime.now()
+            due_date = book["due_date"]
+
+            print("\nBook:", book["title"])
+            print("Due Date:", due_date.strftime("%d-%m-%Y"))
+
+            if today > due_date:
+                late_days = (today - due_date).days
+                print("Status: OVERDUE")
+                print("Late by:", late_days, "days")
+
+            else:
+                remaining_days = (due_date - today).days
+                print("Status: Available for return")
+                print("Days remaining:", remaining_days)
+
+    if not found:
+      print("No books are currently issued.")
 
 # Main program
 while True:
@@ -179,9 +252,11 @@ while True:
         return_book()
 
     elif choice == "6":
+      due_date_reminder()
+
+    elif choice == "7":
         print("Thank you for using Library Management System!")
         break
-
     else:
         print("Invalid choice. Please try again.")      
             
