@@ -53,10 +53,22 @@ Allows a user to return a previously issued book.
 ### 6. 📊 Book Availability
 Displays whether a particular book is currently available or issued.
 
-### 7. 🖥️ Menu-Driven Interface
-Provides a simple menu so that users can easily select the required operation.
+### 7. 📅 **Due Date Reminder**
+- 🔔 **Displays the due date** of books currently issued to students.
+- 📚 Shows the **book title and due date** clearly.
+- ⏰ Checks whether the book is **due or overdue**.
+- ⚠️ Displays an **OVERDUE** status when the return date has passed.
+- 📆 Shows the **number of days the book is late**.
+- 🎯 Helps students **return books on time**.
+- 👥 Helps **reduce crowding** by providing quick access to book and due-date information.
 
-### 8. ❌ Exit
+### 8. 💰 **Fine Calculation**
+- 🔍 Automatically checks whether a book has been **returned late**.
+- 📆 Calculates the **number of late days**.
+- 💵 Calculates the fine using a **fixed fine amount per day**.
+- 🧮 The fine is calculated using:
+
+### 9. ❌ Exit
 Allows the user to safely exit the application.
 
 ---
