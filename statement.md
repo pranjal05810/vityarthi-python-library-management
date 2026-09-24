@@ -79,8 +79,22 @@ Common activities such as searching, checking availability, issuing, and returni
 ### 🗂️ Organized Book Records
 The system stores book information in a structured format using Python lists and dictionaries, making records easier to manage.
 
-### 🖥️ Simple Menu-Driven Interface
+### 📅 **Due Date Reminder**
+- 🔔 **Displays the due date** of books currently issued to students.
+- 📚 Shows the **book title and due date** clearly.
+- ⏰ Checks whether the book is **due or overdue**.
+- ⚠️ Displays an **OVERDUE** status when the return date has passed.
+- 📆 Shows the **number of days the book is late**.
+- 🎯 Helps students **return books on time**.
+- 👥 Helps **reduce crowding** by providing quick access to book and due-date information.
 
+### 💰 **Fine Calculation**
+- 🔍 Automatically checks whether a book has been **returned late**.
+- 📆 Calculates the **number of late days**.
+- 💵 Calculates the fine using a **fixed fine amount per day**.
+- 🧮 The fine is calculated using:
+
+### 🖥️ Simple Menu-Driven Interface
 A straightforward menu allows users to select and perform different library operations easily.
 Why this version is effective
 
