@@ -105,8 +105,39 @@ Library-Management-System/
 ├── README.md
 ├── statement.md
 │
-└── screenshots/
-    ├── main_menu.png
-    ├── search_book.png
-    ├── issue_book.png
-    └── return_book.png
+└── screenshots
+
+🚀 Steps to Install & Run the Project
+Download or clone the project repository from GitHub.
+Make sure Python 3.x is installed on your computer.
+Open the project folder in VS Code, IDLE, PyCharm, or Google Colab.
+Open the Python file, for example:
+library_management.py
+Run the Python program.
+Follow the menu displayed on the screen and enter the required details.
+You can perform operations such as:
+📚 View available books
+🔍 Search for a book
+📖 Issue a book
+🔄 Return a book
+⏰ Check due-date reminders
+💰 Calculate the fine for late returns
+The program will display the result directly in the console.
+💡 Requirements
+Python 3.x
+No external libraries are required.
+The project uses basic Python concepts such as Lists, Dictionaries, Functions, Conditional Statements, and Loops.
+🧪 Instructions for Testing
+
+To test the Library Management System:
+
+▶️ Run the program and check whether the main menu appears correctly.
+📚 Select the option to display books and verify that the book list is shown.
+🔍 Search for an existing book and confirm that the correct book details are displayed.
+❌ Search for a book that does not exist and verify that an appropriate message is displayed.
+📖 Issue a book and check whether its availability is updated.
+🔄 Return the issued book and verify that it becomes available again.
+⏰ Test the due-date reminder using an issued book and check whether the reminder is displayed correctly.
+💰 Test the fine calculation by entering a late return and verify that the fine amount is calculated correctly.
+🔁 Try different menu options to ensure the program handles user input correctly.
+🛑 Test invalid inputs and confirm that the program gives a suitable error message instead of stopping unexpectedly.
