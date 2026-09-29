@@ -7,20 +7,14 @@ Library Management System
 2.Project Overview
 
 I made this Library Management System as my project for the Vityarthi Python Essential Course.
-
-I chose this project because students often need to check whether a book is available, search for a particular book, or know when an issued book has to be returned. Doing these things manually can take extra time and may also create unnecessary crowd at the library counter.
-
-This project is a simple Python program that helps with these basic tasks. It allows the user to view books, search for a book, check its availability, issue a book and return it.
-
+I chose this project because students often need to check whether a book is available, search for a particular book, or know when an issued book has to be returned. Doing these things manually can take extra time and may also create unnecessary crowd at the library counter.This project is a simple Python program that helps with these basic tasks. It allows the user to view books, search for a book, check its availability, issue a book and return it.
 I have also added a due date for issued books. If a book is returned after the due date, the program calculates the fine according to the number of late days.
-
 For the sample data, I have included books from Coding, Engineering Mathematics, Physics and Environmental Studies.
 
 
 3.Objectives
 
 The main objectives of this project are:
-
 - To make some basic library activities easier.
 - To help students find books more quickly.
 - To check whether a book is available or already issued.
