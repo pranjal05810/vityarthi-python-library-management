@@ -70,15 +70,12 @@ Environmental Studies
 5.Technologies and Concepts Used
 
 Technology
-
 Python GitHub
 VS Code / Google Colab
 
 
 Python Concepts
-
 I used the basic Python concepts that I learned during the course, such as:
-
 Variables
 Lists
 Dictionaries
@@ -121,47 +118,28 @@ Contains screenshots of the program while testing different features.
 7.Installation and Running the Project
 
 Step 1: Install Python
-
 First, Python should be installed on the computer.
-
 To check whether Python is already installed, open Command Prompt or Terminal and type:
-
-    python version
-
+python version
 If Python is installed correctly, its version will be displayed.
 
-
-
 Step 2: Download the Project
-
 Download the project from the GitHub repository.
 
 Step 3: Open the Project Folder
-
 After downloading the project, open its folder.
-
 The main Python file is:
-
-    library_management.py
-
-
+library_management.py
 
 Step 4: Open Terminal
-
 Open Command Prompt or Terminal in the project folder.
-
 If using VS Code, the terminal can be opened from:
-
-    Terminal → New Terminal
+Terminal then New Terminal
 
 Step 5: Run the Program
-
 Type the following command:
-
-    python library_management.py
-
+python library_management.py
 Press Enter
-
 The Library Management System menu should now appear.
 
 8. Instructions for Testing
