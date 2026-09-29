@@ -16,7 +16,6 @@ I have also added a due date for issued books. If a book is returned after the d
 
 For the sample data, I have included books from Coding, Engineering Mathematics, Physics and Environmental Studies.
 
----
 
 3.Objectives
 
@@ -31,7 +30,6 @@ The main objectives of this project are:
 - To reduce unnecessary waiting and crowd at the library counter.
 - To apply the Python concepts learned during the course to a practical problem.
 
----
 
 4.Features
 
@@ -88,7 +86,6 @@ The sample books used in the project are related to:
 - Physics
 - Environmental Studies
 
----
 
 5.Technologies and Concepts Used
 
@@ -178,19 +175,15 @@ If using VS Code, the terminal can be opened from:
 
     Terminal → New Terminal
 
----
-
 Step 5: Run the Program
 
 Type the following command:
 
     python library_management.py
 
-Press Enter.
+Press Enter
 
 The Library Management System menu should now appear.
-
----
 
 8. Instructions for Testing
 
@@ -241,8 +234,6 @@ Test 5: Check Due Date
 Expected result: 
 The program should display the due date of the book.
 
-
-
 Test 6: Return a Book on Time
 
 1. Select the return-book option.
@@ -251,8 +242,6 @@ Test 6: Return a Book on Time
 
 Expected result:  
 The book should be returned successfully and no late fine should be charged.
-
----
 
 Test 7: Return a Book Late
 
@@ -265,13 +254,12 @@ The program should calculate the number of late days and display the fine.
 
 Example:
 
-    Due Date: 30 September
-    Return Date: 3 October
+Due Date: 30 September
+Return Date: 3 October
 
-    Late Days: 3
-    Fine per day: ₹10
-    Total Fine: ₹30
-
+Late Days: 3
+Fine per day: ₹10
+Total Fine: ₹30
 
 Test 8: Invalid Input
 
