@@ -15,95 +15,81 @@ For the sample data, I have included books from Coding, Engineering Mathematics,
 3.Objectives
 
 The main objectives of this project are:
-- To make some basic library activities easier.
-- To help students find books more quickly.
-- To check whether a book is available or already issued.
-- To keep track of issued books.
-- To show the due date of an issued book.
-- To calculate a fine if a book is returned late.
-- To reduce unnecessary waiting and crowd at the library counter.
-- To apply the Python concepts learned during the course to a practical problem.
+ To make some basic library activities easier.
+ To help students find books more quickly.
+ To check whether a book is available or already issued.
+ To keep track of issued books.
+ To show the due date of an issued book.
+ To calculate a fine if a book is returned late.
+ To reduce unnecessary waiting and crowd at the library counter.
+ To apply the Python concepts learned during the course to a practical problem.
 
 
 4.Features
 
-* View Books
-
+View Books
 The user can see the books available in the library.
 
-* Search Book
-
+Search Book
 The user can search for a particular book from the library collection.
 
-* Check Availability
-
+Check Availability
 The program shows whether a book is available or has already been issued.
 
-* Issue Book
-
+Issue Book
 If the required book is available, the user can issue it.
 
-* Due Date
-
+Due Date
 After issuing a book, the program provides a due date for returning it.
 
-* Due Date Reminder
-
+Due Date Reminder
 The user can check the due date of an issued book so that the book can be returned on time.
 
-* Return Book
-
+Return Book
 The user can return an issued book. After returning it, the book becomes available again.
 
-* Fine Calculation
-
+Fine Calculation
 If a book is returned after its due date, the program calculates the fine based on the number of late days.
 
-For example:
-
-Late days = 3
+For example:Late days = 3
 Fine per day = ₹10
-
 Total fine = 3 × ₹10
                = ₹30
 
-* Menu-Based Program
-
+Menu-Based Program
 The different operations are available through a simple menu. The user can select an option according to what they want to do.
 
-* Book Categories
-
+Book Categories
 The sample books used in the project are related to:
-
-- Coding
-- Engineering Mathematics
-- Physics
-- Environmental Studies
+Coding
+Engineering Mathematics
+Physics
+Environmental Studies
 
 
 5.Technologies and Concepts Used
 
 Technology
 
-- Python
-- GitHub
-- VS Code / Google Colab
+Python GitHub
+VS Code / Google Colab
+
 
 Python Concepts
 
 I used the basic Python concepts that I learned during the course, such as:
 
-- Variables
-- Lists
-- Dictionaries
-- Functions
-- if-else
-- for loop
-- while loop
-- User input
-- Strings
-- Basic calculations
-- Date handling
+Variables
+Lists
+Dictionaries
+Functions
+if-else
+for loop
+while loop
+User input
+Strings
+Basic calculations
+Date handling
 
 The main purpose was to understand how these concepts can be combined to make a small working application.
 
@@ -264,24 +250,20 @@ The program should display an appropriate message instead of stopping suddenly.
 
 
 9.Screenshots
-
 Screenshots of the project are included in the screenshots folder.
-
 The screenshots show the working of different parts of the program, such as:
 
-* Main menu
-* List of books
-* Book search
-* Book availability
-* Book issue
-* Due date
-* Book return
-* Fine calculation
-
+Main menu
+List of books
+Book search
+Book availability
+Book issue
+Due date
+Book return
+Fine calculation
 These screenshots are included as proof of testing and to show the output of the project.
 
 10.Book Categories
-
 The project contains sample books from four main categories:
 
 Coding, Python, Programming, Data Structures
