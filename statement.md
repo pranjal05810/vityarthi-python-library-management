@@ -3,12 +3,12 @@ Project Statement
 Project Title
 Library Management System
 
-1. Problem Statement
+1.Problem Statement
 
 Managing books in a library manually can take a lot of time, especially when students need to check whether a particular book is available. Searching through records and keeping track of issued and returned books can also become difficult when there are many books.
 This project is made to provide a simple way to manage basic library activities using Python. It helps users search for books, check their availability, issue books, and return them. The main idea is to make the process easier and reduce unnecessary waiting and crowd in the library.
  
-2. Scope of the Project
+2.Scope of the Project
 
 The project focuses on the basic requirements of a library management system. It can maintain a list of books and their details and allows the user to perform common library operations.
 
@@ -23,7 +23,7 @@ The system can be used to:
 
 This project is mainly designed as a basic Python application and can be improved in the future by adding features such as student records, due dates, fine calculation, login, and database storage.
 
-3. Target Users
+3.Target Users
 
 The main users of this project are:
 
@@ -31,7 +31,7 @@ Students:They can search for books and check their availability before going to 
 Library Staff:They can use the system to manage basic book issue and return activities.
 College Libraries:The project can serve as a simple starting point for understanding how library operations can be managed digitally.
 
-4. High-Level Features
+4.High-Level Features
 
 The main features of the Library Management System are:
 
@@ -44,7 +44,7 @@ Simple Menu:Provides an easy way to select different library operations.
 Updated Records:Keeps the book information updated after every issue or return.
 Reduced Waiting and Crowd Students can check book availability first, which can help reduce unnecessary visits and crowd at the library counter.
 
-5. Technologies and Concepts Used
+5.Technologies and Concepts Used
 
 The project is developed using basic Python concepts learned during the Python Essential course.
 The main concepts used are:
