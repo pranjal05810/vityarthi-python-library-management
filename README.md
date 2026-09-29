@@ -67,10 +67,10 @@ If a book is returned after its due date, the program calculates the fine based 
 
 For example:
 
-    Late days = 3
-    Fine per day = ₹10
+Late days = 3
+Fine per day = ₹10
 
-    Total fine = 3 × ₹10
+Total fine = 3 × ₹10
                = ₹30
 
 * Menu-Based Program
@@ -117,12 +117,12 @@ The main purpose was to understand how these concepts can be combined to make a 
 
 The project repository contains the following files:
 
-    Library-Management-System/
-    │
-    ├── README.md
-    ├── statement.md
-    ├── library_management.py
-    └── screenshots/
+    Library-Management-System
+    
+    README.md
+    statement.md
+    Library_management.py
+    screenshots
 
 Files in the Project
 
