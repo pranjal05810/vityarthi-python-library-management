@@ -270,7 +270,7 @@ Expected result:
 The program should display an appropriate message instead of stopping suddenly.
 
 
-9. Screenshots
+9.Screenshots
 
 Screenshots of the project are included in the screenshots folder.
 
@@ -287,7 +287,7 @@ The screenshots show the working of different parts of the program, such as:
 
 These screenshots are included as proof of testing and to show the output of the project.
 
-10. Book Categories
+10.Book Categories
 
 The project contains sample books from four main categories:
 
