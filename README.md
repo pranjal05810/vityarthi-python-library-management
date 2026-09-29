@@ -111,12 +111,11 @@ The main purpose was to understand how these concepts can be combined to make a 
 
 The project repository contains the following files:
 
-    Library-Management-System
-    
-    README.md
-    statement.md
-    Library_management.py
-    screenshots
+Library-Management-System
+README.md
+statement.md
+Library_management.py
+screenshots
 
 Files in the Project
 
