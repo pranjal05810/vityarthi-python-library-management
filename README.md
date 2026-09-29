@@ -97,9 +97,9 @@ I used the basic Python concepts that I learned during the course, such as:
 - Lists
 - Dictionaries
 - Functions
-- `if-else`
-- `for` loop
-- `while` loop
+- if-else
+- for loop
+- while loop
 - User input
 - Strings
 - Basic calculations
@@ -140,7 +140,7 @@ First, Python should be installed on the computer.
 
 To check whether Python is already installed, open Command Prompt or Terminal and type:
 
-    python --version
+    python version
 
 If Python is installed correctly, its version will be displayed.
 
