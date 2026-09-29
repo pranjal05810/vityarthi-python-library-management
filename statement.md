@@ -14,12 +14,12 @@ The project focuses on the basic requirements of a library management system. It
 
 The system can be used to:
 
-- View the available books in the library.
-- Search for a particular book.
-- Check whether a book is available or already issued.
-- Issue a book to a student.
-- Return an issued book.
-- Display updated book information.
+View the available books in the library.
+Search for a particular book.
+Check whether a book is available or already issued.
+Issue a book to a student.
+Return an issued book.
+Display updated book information.
 
 This project is mainly designed as a basic Python application and can be improved in the future by adding features such as student records, due dates, fine calculation, login, and database storage.
 
@@ -35,27 +35,29 @@ College Libraries:The project can serve as a simple starting point for understan
 
 The main features of the Library Management System are:
 
-Book List:Stores information about the books available in the library.
-Book Search:Allows users to find a book from the available collection.
-Availability Check:Shows whether a book is currently available.
-Book Issue:Updates the book status when a student borrows it.
-Book Return:Makes the book available again after it is returned.
-Simple Menu:Provides an easy way to select different library operations.
-Updated Records:Keeps the book information updated after every issue or return.
+Book List: Stores information about the books available in the library.
+Book Search: Allows users to find a book from the available collection.
+Availability Check: Shows whether a book is currently available.
+Book Issue: Updates the book status when a student borrows it.
+Book Return: Makes the book available again after it is returned.
+Simple Menu: Provides an easy way to select different library operations.
+Updated Records: Keeps the book information updated after every issue or return.
 Reduced Waiting and Crowd Students can check book availability first, which can help reduce unnecessary visits and crowd at the library counter.
+Calculate fine: like for one day 5 rupees then for 5 days 25 rupees
+Shows the due date
 
 5.Technologies and Concepts Used
 
 The project is developed using basic Python concepts learned during the Python Essential course.
 The main concepts used are:
 
-- Python
-- Lists
-- Dictionaries
-- Functions
-- Conditional statements
-- Loops
-- User input and output
+Python
+Lists
+Dictionaries
+Functions
+Conditional statements
+Loops
+User input and output
 
 The project is kept simple so that the working of each Python concept can be understood clearly.
 Why this version fits your submissio
